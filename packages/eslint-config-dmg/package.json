@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-dmg",
+  "version": "1.0.0",
+  "description": "dmg eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denisgrenader/dmg/tree/master/packages/eslint-config-dmg"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "dmg"
+  ],
+  "author": "Denis Grenader <denisg@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint-config-airbnb": "^18.1.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "extends": "dmg",
+  "extends": "@grenader/eslint-config",
   "plugins": [
     "jest"
 ],

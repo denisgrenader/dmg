@@ -1,5 +1,5 @@
 {
-  "name": "@dmg/optional",
+  "name": "@grenader/optional",
   "version": "1.0.0",
   "description": "Optional class similar to a Scala Optional",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/denisgrenader/dmg/tree/master/packages/dmg-optional"
+    "url": "https://github.com/denisgrenader/javascript/tree/master/packages/optional"
   },
   "keywords": [
     "optional",
@@ -23,12 +23,12 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-flow": "^7.9.0",
+    "@grenader/eslint-config": "^1.0.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^25.1.0",
     "eslint": "^6.8.0",
     "eslint-cli": "^1.1.1",
     "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-dmg": "^1.0.0",
     "eslint-plugin-flowtype": "^4.7.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.11.0",

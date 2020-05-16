@@ -1,8 +1,11 @@
 /* @flow strict */
-import * as optional from './src/optional.js';
-import * as immutableClass from './src/immutableClass.js';
+import { Optional, Some, None, Match } from './src/optional.js';
+import { ImmutableClass } from './src/immutableClass.js';
 
 export {
-  optional,
-  immutableClass
+  Optional,
+  Some,
+  None,
+  Match,
+  ImmutableClass
 };

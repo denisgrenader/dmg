@@ -1,12 +1,16 @@
 {
   "name": "@grenader/core",
-  "version": "1.0.1",
-  "description": "Includes Flowtype compatible Optional class similar to a Scala Optional, and ImmutableClass",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Optional class similar to a Scala Optional, and ImmutableClass with flow definitions",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --detectOpenHandles --verbose true --testPathPattern .*src.__tests__.*",
     "eslint": "eslint './src/**/*.js' --ignore-pattern node_modules/",
-    "flow": "flow check"
+    "flow": "flow check",
+    "prepack": "npm run prepack:babel && npm run prepack:flow",
+    "prepack:babel": "babel src/ -d lib --ignore 'src/**/*.test.js'",
+    "prepack:flow": "flow-copy-source --ignore '**/*.test.js' src lib",
+    "precheck": "npm run test && npm run flow && npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -20,7 +24,11 @@
   ],
   "author": "Denis Grenader <denisg@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
@@ -36,9 +44,10 @@
     "eslint-plugin-jest": "^23.11.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "flow-bin": "^0.105.2",
+    "flow-copy-source": "^2.0.9",
     "jest": "^25.1.0"
   }
 }

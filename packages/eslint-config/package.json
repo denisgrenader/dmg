@@ -1,20 +1,20 @@
 {
-  "name": "eslint-config-dmg",
+  "name": "@grenader/eslint-config",
   "version": "1.0.0",
-  "description": "dmg eslint config",
+  "description": "grenader eslint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/denisgrenader/dmg/tree/master/packages/eslint-config-dmg"
+    "url": "https://github.com/denisgrenader/javascript/tree/master/packages/eslint-config"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "dmg"
+    "grenader"
   ],
   "author": "Denis Grenader <denisg@gmail.com>",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
-  "name": "@grenader/optional",
+  "name": "@grenader/core",
   "version": "1.0.0",
-  "description": "Optional class similar to a Scala Optional",
+  "description": "Includes Flowtype compatible Optional class similar to a Scala Optional, and ImmutableClass",
   "main": "index.js",
   "scripts": {
     "test": "jest --detectOpenHandles --verbose true --testPathPattern .*src.__tests__.*",
@@ -14,7 +14,9 @@
   },
   "keywords": [
     "optional",
-    "scala optional"
+    "scala optional",
+    "immutable",
+    "immutable class"
   ],
   "author": "Denis Grenader <denisg@gmail.com>",
   "license": "MIT",

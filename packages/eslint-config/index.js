@@ -163,7 +163,7 @@ module.exports = {
         "prefer-spread": 2,
         "require-yield": 2,
 
-        "import/extensions": [2, "never"]
+        "import/extensions": [2, "never"],
 
         // Flow
         "flowtype/generic-spacing": [2, "never"],
